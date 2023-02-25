@@ -16,7 +16,7 @@ object Libraries {
     const val atImpl = "androidTestImplementation"
 
     object Versions {
-        const val dagger = "2.42"
+        const val dagger = "2.44"
         const val hilt = "1.0.0"
         const val recyclerView = "1.2.1"
         const val recyclerViewSelection = "1.1.0"
@@ -37,11 +37,12 @@ object Libraries {
         const val serialization = "1.3.2"
         const val room = "2.4.2"
         const val security = "1.1.0-alpha03"
-        const val bindingDelegate = "1.5.6"
+        const val bindingDelegate = "1.5.8"
         const val leakcanary = "2.9.1"
         const val treeView = "1.2.0"
         const val treeView2 = "1.0.0"
         const val mdReader = "1.1.1"
+        const val codeInput = "1.0.2"
     }
 
 
@@ -135,6 +136,15 @@ object Libraries {
     object MarkDownReader {
         const val markDownReader = "com.github.mukeshsolanki:MarkdownView-Android:${Versions.mdReader}"
     }
+
+    object CodeInput {
+        const val objectInputField = "com.github.monkeyboss:CodeInputView:${Versions.codeInput}"
+    }
+
+    object WorkManager {
+        const val workRuntime = "androidx.work:work-runtime-ktx:${Versions.workManager}"
+    }
+
 }
 
 fun DependencyHandler.baseImpl() {
@@ -212,3 +222,16 @@ fun DependencyHandler.daoRoom() {
 fun DependencyHandler.bindingDelegate() {
     add(impl, Libraries.ViewBindingDelegate.viewBindingPropertyDelegate)
 }
+
+fun DependencyHandler.confirmationField() {
+    add(impl, Libraries.CodeInput.objectInputField)
+}
+
+fun DependencyHandler.securityCrypto() {
+    add(impl, Libraries.Security.securityCrypto)
+}
+
+fun DependencyHandler.workManager() {
+    add(impl, Libraries.WorkManager.workRuntime)
+}
+
