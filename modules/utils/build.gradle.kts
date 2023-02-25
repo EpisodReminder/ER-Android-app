@@ -35,4 +35,6 @@ android {
 
 dependencies {
     baseImpl()
+    lifecycleViewModel()
+    lifecycleApi()
 }

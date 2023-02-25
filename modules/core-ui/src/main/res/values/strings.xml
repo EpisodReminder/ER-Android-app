@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Episode Reminder</string>
+
+    <string name="dialog_alert__default_error_title">Error</string>
+    <string name="dialog_alert__default_error_message">Something went wrong</string>
+    <string name="dialog_alert__default_error_positive_button_text">Ok</string>
+
+    <string name="dialog_alert__will_be_soon_title">Will be soon</string>
+    <string name="dialog_alert__will_be_soon_message">This page is under development and will be available soon</string>
+    <string name="dialog_alert__will_be_soon_positive_button_text">Ok</string>
+</resources>
