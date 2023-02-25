@@ -45,6 +45,7 @@ android {
 }
 
 dependencies {
+    implementation(project(Modules.login))
 
     baseImpl()
     androidNavigation()

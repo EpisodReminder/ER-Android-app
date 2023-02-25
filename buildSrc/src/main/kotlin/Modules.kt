@@ -8,4 +8,5 @@ object Modules {
     const val domain = "$path:domain"
     const val utils = "$path:utils"
 
+    const val login = "$featuresPath:login"
 }
