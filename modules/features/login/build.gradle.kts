@@ -50,4 +50,5 @@ dependencies {
     implementation(project(Modules.core))
     implementation(project(Modules.utils))
     implementation(project(Modules.core_ui))
+    implementation(project(Modules.navigation))
 }

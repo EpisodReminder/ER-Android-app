@@ -11,13 +11,18 @@ import ru.er.core_ui.elements.showWillBeSoonAlertDialog
 import ru.er.login.R
 import ru.er.login.databinding.FragmentHelloBinding
 import ru.er.utils.collectConsumableWhenStarted
+import ru.er.utils.navigate
 import ru.er.utils.viewScope
+import ru.milka.navigation.LoginNavigationInterface
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class HelloFragment : Fragment(R.layout.fragment__hello) {
 
     private val binding: FragmentHelloBinding by viewBinding()
     private val viewModel: HelloScreenViewModel by viewModels()
+    @Inject
+    lateinit var navigation: LoginNavigationInterface
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -27,7 +32,8 @@ class HelloFragment : Fragment(R.layout.fragment__hello) {
 
     private fun observeInit() {
         viewModel.demoModeState.collectConsumableWhenStarted(viewScope) {
-            showWillBeSoonAlertDialog(requireContext())
+//            showWillBeSoonAlertDialog(requireContext())
+            navigate(navigation.toEpisodeScreen())
         }
     }
 

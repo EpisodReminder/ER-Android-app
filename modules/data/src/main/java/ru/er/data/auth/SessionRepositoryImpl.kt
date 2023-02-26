@@ -22,5 +22,7 @@ class SessionRepositoryImpl @Inject constructor(
         sessionInfo = Session.DEMO
     }
 
+    override fun isDemoMode(): Boolean = sessionInfo == Session.DEMO
+
 
 }

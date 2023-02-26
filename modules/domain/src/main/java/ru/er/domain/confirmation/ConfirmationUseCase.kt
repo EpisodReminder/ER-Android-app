@@ -11,7 +11,7 @@ class ConfirmationUseCase @Inject constructor(
     suspend fun checkConfirmationCode(code: String) =
         confirmationDataSource.checkConfirmationCode(code)
 
-    suspend fun loadDemoMode() = confirmationDataSource.loadDemoMode()
+    fun loadDemoMode() = confirmationDataSource.loadDemoMode()
 
 
 }

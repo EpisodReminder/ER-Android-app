@@ -37,4 +37,5 @@ dependencies {
     baseImpl()
     lifecycleViewModel()
     lifecycleApi()
+    androidNavigation()
 }

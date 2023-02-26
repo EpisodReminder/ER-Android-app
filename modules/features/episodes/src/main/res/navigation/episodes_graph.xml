@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/favorite_screen"
+    android:id="@+id/episodes_graph">
+
+    <fragment
+        android:id="@+id/favorite_screen"
+        android:name="ru.milka.episodes.ui.main.MainEpisodesFragment" />
+
+    <fragment
+        android:id="@+id/search_screen"
+        android:name="ru.milka.episodes.ui.search.SearchSeriesFragment" />
+
+    <fragment
+        android:id="@+id/details_screen"
+        android:name="ru.milka.episodes.ui.details.DetailsFilmFragment">
+
+        <argument
+            android:name="kinopoiskId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+
+</navigation>
