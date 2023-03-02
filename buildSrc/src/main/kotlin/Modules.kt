@@ -7,6 +7,8 @@ object Modules {
     const val data = "$path:data"
     const val domain = "$path:domain"
     const val utils = "$path:utils"
+    const val navigation = "$path:navigation"
 
     const val login = "$featuresPath:login"
+    const val episodes = "$featuresPath:episodes"
 }

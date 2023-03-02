@@ -19,6 +19,8 @@ android {
 
         buildConfigField("String", "BASE_URL", "\"https://episod-reminder.ru/rest/v1\"")
         buildConfigField("String", "TELEGRAM_BOT_URL", "\"https://t.me/milka_production\"")
+        buildConfigField("String", "KINOPOISK_URL", "\"https://www.kinopoisk.ru/film\"")
+        buildConfigField("long", "DEMO_MODE_RESPONSE_DELAY", "2000")
     }
 
     buildTypes {
@@ -46,6 +48,7 @@ android {
 
 dependencies {
     implementation(project(Modules.login))
+    implementation(project(Modules.episodes))
 
     baseImpl()
     androidNavigation()
@@ -57,5 +60,6 @@ dependencies {
     implementation(project(Modules.utils))
     implementation(project(Modules.data))
     implementation(project(Modules.domain))
+    implementation(project(Modules.navigation))
 
 }

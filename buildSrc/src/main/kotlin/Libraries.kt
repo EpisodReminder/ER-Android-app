@@ -20,6 +20,7 @@ object Libraries {
         const val hilt = "1.0.0"
         const val recyclerView = "1.2.1"
         const val recyclerViewSelection = "1.1.0"
+        const val recyclerAdapterDelegate = "4.3.2"
         const val workManager = "2.7.1"
         const val navigation = "2.5.0"
         const val junit = "4.13.2"
@@ -43,6 +44,7 @@ object Libraries {
         const val treeView2 = "1.0.0"
         const val mdReader = "1.1.1"
         const val codeInput = "1.0.2"
+        const val picasso = "2.8"
     }
 
 
@@ -56,6 +58,9 @@ object Libraries {
     object Recycler {
         const val recyclerView = "androidx.recyclerview:recyclerview:${Versions.recyclerView}"
         const val recyclerSelection = "androidx.recyclerview:recyclerview-selection:${Versions.recyclerViewSelection}"
+        const val adapterDelegate = "com.hannesdorfmann:adapterdelegates4:${Versions.recyclerAdapterDelegate}"
+        const val adapterDelegateBinding =
+            "com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding:${Versions.recyclerAdapterDelegate}"
     }
 
 
@@ -145,6 +150,9 @@ object Libraries {
         const val workRuntime = "androidx.work:work-runtime-ktx:${Versions.workManager}"
     }
 
+    object Picasso {
+        const val picasso = "com.squareup.picasso:picasso:${Versions.picasso}"
+    }
 }
 
 fun DependencyHandler.baseImpl() {
@@ -165,6 +173,8 @@ fun DependencyHandler.androidHilt() {
 fun DependencyHandler.recycler() {
     add(impl, Libraries.Recycler.recyclerView)
     add(impl, Libraries.Recycler.recyclerSelection)
+    add(impl, Libraries.Recycler.adapterDelegate)
+    add(impl, Libraries.Recycler.adapterDelegateBinding)
 }
 
 fun DependencyHandler.androidNavigation() {
@@ -233,5 +243,9 @@ fun DependencyHandler.securityCrypto() {
 
 fun DependencyHandler.workManager() {
     add(impl, Libraries.WorkManager.workRuntime)
+}
+
+fun DependencyHandler.picasso() {
+    add(impl, Libraries.Picasso.picasso)
 }
 

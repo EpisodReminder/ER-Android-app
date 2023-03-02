@@ -1,3 +1,4 @@
+include(":modules:features:episodes")
 
 rootProject.name = "EpisodReminder"
 
@@ -9,3 +10,4 @@ include(":modules:domain")
 include(":modules:data")
 include(":modules:utils")
 include(":modules:features:login")
+include(":modules:navigation")

@@ -6,4 +6,6 @@ interface SessionRepository {
 
     fun setDemoMode()
 
+    fun isDemoMode(): Boolean
+
 }
