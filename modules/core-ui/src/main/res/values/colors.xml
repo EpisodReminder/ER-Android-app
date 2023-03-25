@@ -8,7 +8,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <color name="blue">#3E409C</color>
-    <color name="gray_secondary">#F4F4FB</color>
-    <color name="azure_blue">#336180</color>
+    <color name="blue">#3B3DCC</color>
+    <color name="green">#53BB53</color>
+    <color name="gray">#14142B</color>
+    <color name="blue_trend">#6883BC</color>
+    <color name="red_pink_test">#F77869</color>
+
+    <color name="light_background">#F8F9FE</color>
+    <color name="night_background">#25253C</color>
+    <color name="sec_gray">#717171</color>
 </resources>

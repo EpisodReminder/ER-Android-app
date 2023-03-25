@@ -3,9 +3,14 @@
     <!-- Base application theme. -->
     <style name="Theme.EpisodeReminder" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">#7f84ac</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorSecondaryVariant">@color/sec_gray</item>
+        <item name="colorOnSecondaryContainer">@color/white</item>
         <item name="colorAccent">@color/teal_200</item>
+        <item name="backgroundColor">@color/light_background</item>
+        <item name="background_gradient">@drawable/main_background</item>
+        <item name="color_on_background_gradient">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>
