@@ -5,6 +5,8 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">#7f84ac</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorSecondary">@color/stone_gray</item>
+        <item name="colorOnSecondary">@color/white</item>
         <item name="colorSecondaryVariant">@color/sec_gray</item>
         <item name="colorOnSecondaryContainer">@color/white</item>
         <item name="colorAccent">@color/teal_200</item>
