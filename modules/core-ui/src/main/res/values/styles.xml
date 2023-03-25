@@ -4,11 +4,14 @@
     <style name="Theme.EpisodeReminder.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
     <style name="Widget.Material3.Button.ElevatedButton.Custom">
         <item name="android:textAppearance">@style/TextAppearance.EpisodeReminder.Subtitle1</item>
-        <item name="backgroundTint">#444e5d</item>
+        <item name="backgroundTint">?attr/colorSecondary</item>
         <item name="android:textColor">?attr/colorOnSecondaryContainer</item>
     </style>
 

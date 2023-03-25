@@ -5,9 +5,11 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.navOptions
 import by.kirich1409.viewbindingdelegate.viewBinding
 import dagger.hilt.android.AndroidEntryPoint
-import ru.er.core_ui.elements.showWillBeSoonAlertDialog
+import ru.er.core_ui.fadeAnimation
+import ru.er.core_ui.slideAnimation
 import ru.er.login.R
 import ru.er.login.databinding.FragmentHelloBinding
 import ru.er.utils.collectConsumableWhenStarted
@@ -21,6 +23,7 @@ class HelloFragment : Fragment(R.layout.fragment__hello) {
 
     private val binding: FragmentHelloBinding by viewBinding()
     private val viewModel: HelloScreenViewModel by viewModels()
+
     @Inject
     lateinit var navigation: LoginNavigationInterface
 
@@ -38,9 +41,14 @@ class HelloFragment : Fragment(R.layout.fragment__hello) {
     }
 
     private fun bindingInit() {
-        with (binding) {
+        with(binding) {
             loginButton.setOnClickListener {
-                findNavController().navigate(R.id.confirmation_screen)
+                findNavController().navigate(
+                    R.id.confirmation_screen,
+                    null,
+                    navOptions = navOptions {
+                        //anim(slideAnimation)
+                    })
             }
             demoButton.setOnClickListener {
                 viewModel.loadDemoMode()

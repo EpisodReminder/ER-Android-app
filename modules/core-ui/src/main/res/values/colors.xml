@@ -17,4 +17,5 @@
     <color name="light_background">#F8F9FE</color>
     <color name="night_background">#25253C</color>
     <color name="sec_gray">#717171</color>
+    <color name="stone_gray">#444e5d</color>
 </resources>

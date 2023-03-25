@@ -39,4 +39,5 @@ android {
 dependencies {
     baseImpl()
     recycler()
+    androidNavigation()
 }
