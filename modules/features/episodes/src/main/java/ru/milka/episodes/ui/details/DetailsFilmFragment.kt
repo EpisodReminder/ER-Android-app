@@ -13,6 +13,8 @@ import com.hannesdorfmann.adapterdelegates4.ListDelegationAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import ru.er.core.Config
 import ru.er.core_ui.recycler.ListItem
+import ru.er.core_ui.recycler.components.emptyDelegateAdapter
+import ru.er.core_ui.recycler.components.episodeCellDelegateAdapter
 import ru.er.core_ui.recycler.components.loaderDelegateAdapter
 import ru.er.core_ui.recycler.components.textCellDelegateAdapter
 import ru.er.utils.collectConsumableWhenStarted
@@ -44,7 +46,9 @@ class DetailsFilmFragment : Fragment(R.layout.fragment__details_film) {
                 switchClick = ::followSwitchChange
             ),
             textCellDelegateAdapter(),
-            loaderDelegateAdapter()
+            loaderDelegateAdapter(),
+            emptyDelegateAdapter(),
+            episodeCellDelegateAdapter()
         )
     }
 

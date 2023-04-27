@@ -12,6 +12,7 @@ import ru.er.core_ui.recycler.ListItem
 import ru.er.core_ui.recycler.components.LoaderElement
 import ru.er.domain.episodes.details.DetailsFilmUseCase
 import ru.er.domain.episodes.models.FilmDetails
+import ru.er.domain.episodes.models.SeriesPreviewInfo
 import ru.er.utils.ActionState
 import ru.er.utils.Consumable
 import ru.er.utils.launchTo
@@ -26,7 +27,7 @@ class DetailsFilmViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val _subscribeSeriesList =
-        MutableStateFlow<ActionState<FilmDetails>>(ActionState.Idle())
+        MutableStateFlow<ActionState<SeriesPreviewInfo>>(ActionState.Idle())
 
 
     private var filmId: Int = 0

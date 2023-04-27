@@ -8,7 +8,7 @@ import ru.er.core_ui.recycler.ListItem
 data class TextCellElement(
     @StringRes val titleRes: Int? = null,
     val title: String? = null,
-    val description: String
+    val description: String,
 ) : ListItem()
 
 fun textCellDelegateAdapter() =
@@ -24,7 +24,7 @@ fun textCellDelegateAdapter() =
 
         bind {
             item.titleRes.let {
-                binding.title.text = if (it != null) item.title else it
+                binding.title.text = if (it != null) getString(it) else item.title
             }
             binding.description.text = item.description
         }

@@ -20,7 +20,7 @@ class DetailsFilmDataSourceApiDemoImpl @Inject constructor(
     private val json: Json
 ): DetailsFilmDataSourceApi {
 
-    override suspend fun getFilmDetails(id: Int): FilmDetails {
+    override suspend fun getFilmDetails(id: Int): SeriesPreviewInfo {
         delay(config.demoModeDelay)
         return context.assets.decode(json, "episodes/details.json")
 

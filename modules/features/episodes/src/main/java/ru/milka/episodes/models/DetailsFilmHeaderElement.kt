@@ -7,12 +7,21 @@ data class DetailsFilmHeaderElement(
     val kinopoiskId: Int,
     val title: String,
     val imgPreviewLink: String,
-    val ratingKinopoisk: Double,
+    val rating: String,
+    val description: String,
+    val yearStart: String,
 ) : ListItem() {
 
     companion object {
-//        fun SeriesPreviewInfo.toPreviewEpisodeElement() =
-//            DetailsFilmHeaderElement(title = this.title, imgPreviewLink = this.posterUrlPreview)
+        fun SeriesPreviewInfo.toDetailsFilmHeaderElement() =
+            DetailsFilmHeaderElement(
+                kinopoiskId = if (kinopoiskId != 0) kinopoiskId else filmId,
+                title = this.title,
+                imgPreviewLink = this.posterUrlPreview,
+                description = if (description.length > 200) "${this.description.slice(0..200)}..." else description,
+                rating = if (ratingKinopoisk.isNotEmpty()) ratingKinopoisk else rating,
+                yearStart = startYear.toString()
+            )
     }
 
 }

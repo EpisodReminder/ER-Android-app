@@ -1,41 +1,38 @@
 {
-  "kinopoiskId": 301,
-  "imdbId": "tt0133093",
-  "title": "Матрица",
-  "nameEn": "The Matrix",
-  "nameOriginal": "The Matrix",
-  "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/301.jpg",
-  "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/301.jpg",
-  "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000016cc7177239d4025185c488b1bf43/orig",
-  "logoUrl": "https://avatars.mds.yandex.net/get-ott/1648503/2a00000170a5418408119bc802b53a03007b/orig",
-  "reviewsCount": 293,
-  "ratingGoodReview": 88.9,
-  "ratingGoodReviewVoteCount": 257,
-  "ratingKinopoisk": 8.5,
-  "ratingKinopoiskVoteCount": 524108,
-  "ratingImdb": 8.7,
-  "ratingImdbVoteCount": 1729087,
-  "ratingFilmCritics": 7.8,
-  "ratingFilmCriticsVoteCount": 155,
-  "ratingAwait": 7.8,
-  "ratingAwaitCount": 2,
-  "ratingRfCritics": 7.8,
-  "ratingRfCriticsVoteCount": 31,
-  "webUrl": "https://www.kinopoisk.ru/film/301/",
-  "year": 1999,
-  "filmLength": 136,
-  "slogan": "Добро пожаловать в реальный мир",
-  "description": "Жизнь Томаса Андерсона разделена на две части:",
-  "shortDescription": "Хакер Нео узнает, что его мир — виртуальный. Выдающийся экшен, доказавший, что зрелищное кино может быть умным",
-  "editorAnnotation": "Фильм доступен только на языке оригинала с русскими субтитрами",
+  "kinopoiskId": 1316601,
+  "imdbId": "tt11198330",
+  "nameRu": "Дом Дракона",
+  "nameEn": null,
+  "nameOriginal": "House of the Dragon",
+  "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1316601.jpg",
+  "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1316601.jpg",
+  "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a000001824a6fac3c516402b098cb0631ce/orig",
+  "logoUrl": null,
+  "reviewsCount": 60,
+  "ratingGoodReview": null,
+  "ratingGoodReviewVoteCount": 0,
+  "ratingKinopoisk": 8.2,
+  "ratingKinopoiskVoteCount": 385163,
+  "ratingImdb": 8.5,
+  "ratingImdbVoteCount": 322713,
+  "ratingFilmCritics": null,
+  "ratingFilmCriticsVoteCount": 0,
+  "ratingAwait": 98,
+  "ratingAwaitCount": 41823,
+  "ratingRfCritics": 75,
+  "ratingRfCriticsVoteCount": 8,
+  "webUrl": "https://www.kinopoisk.ru/film/1316601/",
+  "year": 2022,
+  "filmLength": 60,
+  "slogan": "Fire Will Reign",
+  "description": "О борьбе за власть между двумя ветвями дома Таргариенов.",
+  "shortDescription": "Таргариены сражаются друг с другом и растят драконов. Эпическая сага о жестокой войне за Железный трон",
+  "editorAnnotation": "",
   "isTicketsAvailable": false,
-  "productionStatus": "POST_PRODUCTION",
-  "type": "FILM",
-  "ratingMpaa": "r",
-  "ratingAgeLimits": "age16",
-  "hasImax": false,
-  "has3D": false,
-  "lastSync": "2021-07-29T20:07:49.109817",
+  "productionStatus": null,
+  "type": "TV_SERIES",
+  "ratingMpaa": null,
+  "ratingAgeLimits": "age18",
   "countries": [
     {
       "country": "США"
@@ -43,12 +40,115 @@
   ],
   "genres": [
     {
-      "genre": "фантастика"
+      "genre": "драма"
+    },
+    {
+      "genre": "мелодрама"
+    },
+    {
+      "genre": "боевик"
+    },
+    {
+      "genre": "фэнтези"
     }
   ],
-  "startYear": 1996,
-  "endYear": 1996,
-  "serial": false,
+  "startYear": 2022,
+  "endYear": 2022,
+  "serial": true,
   "shortFilm": false,
-  "completed": false
+  "completed": true,
+  "hasImax": false,
+  "has3D": false,
+  "lastSync": "2023-04-17T22:42:41.262505",
+
+  "seasonInfo": {
+    "total": 1,
+    "items": [
+      {
+        "number": 1,
+        "episodes": [
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 1,
+            "nameRu": "Наследники дракона",
+            "nameEn": "The Heirs of the Dragon",
+            "synopsis": "",
+            "releaseDate": "2022-08-22"
+          },
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 2,
+            "nameRu": "Порочный принц",
+            "nameEn": "The Rogue Prince",
+            "synopsis": "",
+            "releaseDate": "2022-08-29"
+          },
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 3,
+            "nameRu": "Второй своего имени",
+            "nameEn": "Second of His Name",
+            "synopsis": "",
+            "releaseDate": "2022-09-05"
+          },
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 4,
+            "nameRu": "Король Узкого Моря",
+            "nameEn": "King of the Narrow Sea",
+            "synopsis": "",
+            "releaseDate": "2022-09-12"
+          },
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 5,
+            "nameRu": "Мы путь осветим",
+            "nameEn": "We Light the Way",
+            "synopsis": "",
+            "releaseDate": "2022-09-19"
+          },
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 6,
+            "nameRu": "Принцесса и королева",
+            "nameEn": "The Princess and the Queen",
+            "synopsis": "",
+            "releaseDate": "2022-09-26"
+          },
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 7,
+            "nameRu": "Дрифтмарк",
+            "nameEn": "Driftmark",
+            "synopsis": "",
+            "releaseDate": "2022-10-03"
+          },
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 8,
+            "nameRu": "Лорд Приливов",
+            "nameEn": "The Lord of the Tides",
+            "synopsis": "",
+            "releaseDate": "2022-10-10"
+          },
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 9,
+            "nameRu": "Зеленый Совет",
+            "nameEn": "The Green Council",
+            "synopsis": "",
+            "releaseDate": "2022-10-17"
+          },
+          {
+            "seasonNumber": 1,
+            "episodeNumber": 10,
+            "nameRu": "Черная королева",
+            "nameEn": "The Black Queen",
+            "synopsis": "",
+            "releaseDate": "2022-10-24"
+          }
+        ]
+      }
+    ]
+  }
 }

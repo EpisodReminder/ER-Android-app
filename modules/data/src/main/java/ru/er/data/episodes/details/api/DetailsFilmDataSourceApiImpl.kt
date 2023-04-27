@@ -9,7 +9,7 @@ import javax.inject.Inject
 @Reusable
 class DetailsFilmDataSourceApiImpl @Inject constructor(): DetailsFilmDataSourceApi {
 
-    override suspend fun getFilmDetails(id: Int): FilmDetails {
+    override suspend fun getFilmDetails(id: Int): SeriesPreviewInfo {
         TODO("Not yet implemented")
     }
 }

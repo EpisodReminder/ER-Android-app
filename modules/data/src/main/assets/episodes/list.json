@@ -1,10 +1,40 @@
 {
   "list": [
     {
-      "filmId": 1303597,
-      "title": "Testify",
-      "type": "FILM",
-      "year": "2019",
+      "kinopoiskId": 1316601,
+      "imdbId": "tt11198330",
+      "nameRu": "Дом Дракона",
+      "nameEn": null,
+      "nameOriginal": "House of the Dragon",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1316601.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1316601.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a000001824a6fac3c516402b098cb0631ce/orig",
+      "logoUrl": null,
+      "reviewsCount": 60,
+      "ratingGoodReview": null,
+      "ratingGoodReviewVoteCount": 0,
+      "ratingKinopoisk": 8.2,
+      "ratingKinopoiskVoteCount": 385163,
+      "ratingImdb": 8.5,
+      "ratingImdbVoteCount": 322713,
+      "ratingFilmCritics": null,
+      "ratingFilmCriticsVoteCount": 0,
+      "ratingAwait": 98,
+      "ratingAwaitCount": 41823,
+      "ratingRfCritics": 75,
+      "ratingRfCriticsVoteCount": 8,
+      "webUrl": "https://www.kinopoisk.ru/film/1316601/",
+      "year": 2022,
+      "filmLength": 60,
+      "slogan": "Fire Will Reign",
+      "description": "О борьбе за власть между двумя ветвями дома Таргариенов.",
+      "shortDescription": "Таргариены сражаются друг с другом и растят драконов. Эпическая сага о жестокой войне за Железный трон",
+      "editorAnnotation": "",
+      "isTicketsAvailable": false,
+      "productionStatus": null,
+      "type": "TV_SERIES",
+      "ratingMpaa": null,
+      "ratingAgeLimits": "age18",
       "countries": [
         {
           "country": "США"
@@ -13,74 +43,61 @@
       "genres": [
         {
           "genre": "драма"
-        },
-        {
-          "genre": "короткометражка"
-        }
-      ],
-      "rating": "null",
-      "ratingVoteCount": 2,
-      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1303597.jpg",
-      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1303597.jpg"
-    },
-    {
-      "filmId": 938100,
-      "title": "Сомнения Томаса",
-      "title": "Doubting Thomas",
-      "type": "FILM",
-      "year": "2018",
-      "description": "У белой пары рождается темнокожий ребенок. Джен предлагает пройти тест на отцовство, чтобы успокоить Тома.",
-      "filmLength": "01:26",
-      "countries": [
-        {
-          "country": "США"
-        }
-      ],
-      "genres": [
-        {
-          "genre": "драма"
-        }
-      ],
-      "rating": "null",
-      "ratingVoteCount": 47,
-      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/938100.jpg",
-      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/938100.jpg"
-    },
-    {
-      "filmId": 417841,
-      "title": "Не думай про белых обезьян",
-      "type": "FILM",
-      "year": "2008",
-      "description": "Герой фильма - молодой бармен Вова - энергичен и самоуверен. Мерилом ценностей для него являются деньги. Его будущий тесть Гаврилыч, влиятельный бизнесмен, отвел ему под жилье заброшенную мансарду и велел переделать под ресторан подвал.   \r\n\r\nНа чердаке наш герой сталкивается со странной троицей - нищими представителями художественной богемы: суицидной и экстраординарной девушкой Дашей, художником-алкоголиком Геной и странным лысым человеком по прозвищу Ху-Пунь. Вова хочет приспособить их под дешевую рабочую силу. Но эта встреча переворачивает его представление о мире. \r\n\r\nОн осознает, что смысл жизни можно найти в совершенно бесполезных, на первый взгляд, вещах - в рисунке, мелодии, в созерцании городских крыш и плывущих облаков…  Он узнает, что любовь и секс, совершенно разные вещи...   И стройная налаженная жизнь Вовы летит кувырком.",
-      "filmLength": "02:00",
-      "countries": [
-        {
-          "country": "Россия"
-        }
-      ],
-      "genres": [
-        {
-          "genre": "драма"
-        },
-        {
-          "genre": "комедия"
         },
         {
           "genre": "мелодрама"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
         }
       ],
-      "rating": "6.8",
-      "ratingVoteCount": 1617,
-      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/417841.jpg",
-      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/417841.jpg"
+      "startYear": 2022,
+      "endYear": 2022,
+      "serial": true,
+      "shortFilm": false,
+      "completed": true,
+      "hasImax": false,
+      "has3D": false,
+      "lastSync": "2023-04-17T22:42:41.262505"
     },
     {
-      "filmId": 465178,
-      "title": "Капитан Гордеев",
+      "kinopoiskId": 4647040,
+      "imdbId": null,
+      "nameRu": "Король и Шут",
+      "nameEn": null,
+      "nameOriginal": null,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4647040.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4647040.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a000001864f6d4c6e976f0dc317caa953b5/orig",
+      "logoUrl": null,
+      "reviewsCount": 164,
+      "ratingGoodReview": null,
+      "ratingGoodReviewVoteCount": 0,
+      "ratingKinopoisk": 8.3,
+      "ratingKinopoiskVoteCount": 566359,
+      "ratingImdb": null,
+      "ratingImdbVoteCount": 0,
+      "ratingFilmCritics": null,
+      "ratingFilmCriticsVoteCount": 0,
+      "ratingAwait": 98,
+      "ratingAwaitCount": 101980,
+      "ratingRfCritics": null,
+      "ratingRfCriticsVoteCount": 0,
+      "webUrl": "https://www.kinopoisk.ru/film/4647040/",
+      "year": 2023,
+      "filmLength": 50,
+      "slogan": null,
+      "description": "Горшок, Князь и Шут — герои панк-сказки, в которой студенты реставрационного училища стали одной из главных рок-групп страны, собрали «Юбилейный», покорили Москву, выступили как хедлайнеры на фестивале «Нашествие» и создали целую фэнтези-вселенную. Группа вошла в историю, а тексты их песен ожили в мире-фантазии, где Горшок и Князь отправляются спасать принцессу из плена колдуна.",
+      "shortDescription": "Чтобы сбежать от реальности, они изобрели свой мир — с колдунами и лесниками. Главный сериал весны",
+      "editorAnnotation": null,
+      "isTicketsAvailable": false,
+      "productionStatus": null,
       "type": "TV_SERIES",
-      "year": "2010",
-      "description": "Капитан Гордеев чисто выбрит, подтянут и ироничен. Работает талантливо и азартно, что не всегда нравится начальству. Как говорит его друг, майор Беляев: «: Гордеев ведь краёв не видит, прёт напролом, пока убийцу не поймает, а потом и гуляет - тоже, с выкрутасами!». \n\nКапитан Гордеев прирождённый артист, и не всем преступникам понятно, когда он шутит, а когда говорит серьёзно. Но, как говорит генерал: «:нет, Гордеев не клоун, он лучший оперативный сотрудник нашего управления!». Капитан Гордеев всегда собран, и готов к мгновенной импровизации и перевоплощению. Его стажёр, лейтенант Каверин, восхищается: «Ну, вы, Максимыч, - артист! В жизни не узнал бы, если бы на улице вас встретил!». Капитан Гордеев холост, но постоянно находится в активном поиске предназначенной ему судьбой боевой подруги. \n\nИ боевые, красивые женщины встречаются ему практически каждый день. Или ночь. Но не все они проходят тест на «ментовский» образ жизни капитана Гордеева . Одна из его подруг, прокурор Матанина, сетует: «Эх, Гордеев , когда же ты, наконец, повзрослеешь?». Но потомственный опер Гордеев молод и стремителен. Даже друзья и начальники не всегда поспевают за ним, хотя любят его и уважают. Но это не приносит ему чинов, поэтому Гордеев по званию - вечный капитан.",
-      "filmLength": "00:47",
+      "ratingMpaa": null,
+      "ratingAgeLimits": "age18",
       "countries": [
         {
           "country": "Россия"
@@ -88,13 +105,92 @@
       ],
       "genres": [
         {
-          "genre": "детектив"
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "музыка"
         }
       ],
-      "rating": "7.0",
-      "ratingVoteCount": 420,
-      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/465178.jpg",
-      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/465178.jpg"
+      "startYear": 2023,
+      "endYear": 2023,
+      "serial": true,
+      "shortFilm": false,
+      "completed": true,
+      "hasImax": false,
+      "has3D": false,
+      "lastSync": "2023-04-18T03:08:28.177309"
+    },
+    {
+      "kinopoiskId": 4445150,
+      "imdbId": "tt11126994",
+      "nameRu": "Аркейн",
+      "nameEn": null,
+      "nameOriginal": "Arcane: League of Legends",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4445150.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4445150.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "reviewsCount": 81,
+      "ratingGoodReview": 81.3,
+      "ratingGoodReviewVoteCount": 55,
+      "ratingKinopoisk": 8.8,
+      "ratingKinopoiskVoteCount": 116616,
+      "ratingImdb": 9,
+      "ratingImdbVoteCount": 223852,
+      "ratingFilmCritics": null,
+      "ratingFilmCriticsVoteCount": 0,
+      "ratingAwait": 99,
+      "ratingAwaitCount": 1645,
+      "ratingRfCritics": 80,
+      "ratingRfCriticsVoteCount": 15,
+      "webUrl": "https://www.kinopoisk.ru/film/4445150/",
+      "year": 2021,
+      "filmLength": 42,
+      "slogan": "Every legend has a beginning.",
+      "description": "История разворачивается в утопическом краю Пилтовер и жестоком подземном мире Заун и рассказывает о становлении двух легендарных чемпионов Лиги и о той силе, что разведёт их по разные стороны баррикад.",
+      "shortDescription": null,
+      "editorAnnotation": null,
+      "isTicketsAvailable": false,
+      "productionStatus": null,
+      "type": "TV_SERIES",
+      "ratingMpaa": null,
+      "ratingAgeLimits": "age16",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "мультфильм"
+        }
+      ],
+      "startYear": 2021,
+      "endYear": 2021,
+      "serial": true,
+      "shortFilm": false,
+      "completed": true,
+      "hasImax": false,
+      "has3D": false,
+      "lastSync": "2023-04-17T17:50:10.626919"
     }
   ]
 }

@@ -13,7 +13,7 @@ class DetailsFilmDataSourceImpl @Inject constructor(
 ) : DetailsFilmDataSource {
 
 
-    override suspend fun getFollowList(id: Int): FilmDetails =
+    override suspend fun getFollowList(id: Int): SeriesPreviewInfo =
         detailsFilmDataSourceApi.getFilmDetails(id)
 
 }

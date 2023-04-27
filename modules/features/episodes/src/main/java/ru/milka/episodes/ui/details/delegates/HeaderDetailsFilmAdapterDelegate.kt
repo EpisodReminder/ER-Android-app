@@ -23,10 +23,10 @@ fun headerEpisodesDetailsFilmDelegateAdapter(
         with(binding) {
             Picasso.get().load(item.imgPreviewLink).into(imagePreview)
             title.text = item.title
-            rating.text = item.ratingKinopoisk.toString()
+            rating.text = "Рейинг: ${item.rating}"
+            yearStart.text = "Год выпуска: ${item.yearStart}"
             toKinopoiskButton.setOnClickListener { kinopoiskClick(item.kinopoiskId) }
-            followSwitcher.setOnCheckedChangeListener { _, boolState ->
-                switchClick(boolState)
+            followSwitcher.setOnClickListener {
             }
         }
     }

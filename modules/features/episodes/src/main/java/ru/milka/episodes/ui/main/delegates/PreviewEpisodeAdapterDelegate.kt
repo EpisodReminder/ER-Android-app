@@ -23,6 +23,8 @@ fun previewEpisodeDelegateAdapter(
             binding.textTitle.text = item.title
             Picasso.get().load(item.imgPreviewLink).into(binding.imagePreview)
             binding.followSwitcher.isChecked = false
+            binding.textDescription.text = item.description
+            binding.textRating.text = item.rating
             binding.root.setOnClickListener {
                 rootPreviewClick(item.kinopoiskId)
             }
